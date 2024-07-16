@@ -3,8 +3,8 @@ import inquirer from "inquirer";
 const SystemGenreteNumber = Math.floor(Math.random()*10);
 
 const {UserGuess} : {UserGuess:number} =await inquirer.prompt({
-    type:"number",
     name:"UserGuess",
+    type:"number",
     message:("guess the number between 1to10")
 });
 
