@@ -10,7 +10,7 @@ const {UserGuess} : {UserGuess:number} =await inquirer.prompt({
 
 
 if (UserGuess === SystemGenreteNumber){
-    console.log("yuo are winner")
+    console.log("you won the match")
 } else {
     console.log(`better luck next time the correct number is ${SystemGenreteNumber}`)
 }
